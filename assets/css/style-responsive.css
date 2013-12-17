@@ -1,0 +1,540 @@
+
+
+
+
+@media (min-width: 1200px) {
+    .left-box,.mid-box,.right-box{
+        height: 205px;
+    }
+    .brand{
+        margin:32px 0px 0px 15px !important
+    }
+    .menu-holder{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .navbar .nav > li > a {
+        padding: 10px 25px;
+    }
+    .navbar .nav li:last-child a {
+        padding: 10px 0px 10px 25px;
+    }
+    .navbar-inverse .nav > li > a {
+        font-size: 1.4em;
+    }
+    
+    .address-holder{
+        width: 280px;
+    }
+    .descip-about p{
+        padding: 30px 130px 0px;
+    }
+    .desciption-div p{
+        margin-right: 20px;
+    }
+
+}
+@media (min-width: 980px) and (max-width: 1199px) { 
+
+    .left-box,.mid-box,.right-box{
+        height: 220px;
+    }
+    .brand{
+        margin:34px 0px 0px 0px !important;
+        height: 55px;
+        padding: 10px 0;
+
+    }
+
+    .footer-nav p{
+    }
+    .theme-default a.nivo-nextNav {
+        right:402px; 
+    }
+    .theme-default a.nivo-prevNav {
+        left:410px;
+
+    }
+    .nivo-caption {
+        left:24px;
+
+    }
+
+    .nivo-caption a {
+        font-size: 4em;
+    } 
+    .menu-holder{
+        width: 940px;
+        margin: 0 auto;
+    }
+    .contact-info-holder{
+        font-size: .9em !important;
+    }
+    .address-holder{
+        width: 260px;
+        margin-left: 20px;
+    }
+
+    .social-ico a:last-child{
+        margin-right: 5px;
+
+    }
+    .navbar .nav > li > a {
+        padding: 10px 15px;
+    }
+    .navbar-inverse .nav > li > a {
+        font-size: 1.2em!important;
+    }
+    .navbar .nav{
+        margin-right: -16px!important;
+    }
+    .descip-about p{
+        padding: 10px 40px 0px;
+        font-size: 1.5em;
+
+    }
+
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+    .left-box,.mid-box,.right-box{
+        height: 320px;
+    }
+    .brand{
+        margin:27px 0px 0px 0px !important;
+        height: 55px;
+        padding: 0;
+
+    }  
+    .navbar .btn-navbar{
+        margin: 55px 15px 0 0px;
+    } 
+    .footer-nav a{
+        font-size: 0.7em;
+
+    }
+
+    .theme-default a.nivo-nextNav {
+        right:290px; 
+    }
+    .theme-default a.nivo-prevNav {
+        left:290px;
+
+    }  
+
+    .nivo-caption {
+        left:20px;
+        bottom:22px;
+    }
+
+    .nivo-caption a {
+        font-size: 3em;
+    } 
+    .contact-info-holder{
+        font-size: .7em !important;
+    }
+    .contact-info-holder .camp-location{
+        white-space: nowrap;
+    }
+    .contact-info-holder .camp-location b,.contact-info-holder .camp-location label{
+        margin-left: 15px;
+    }
+    .address-holder{
+        width: 240px;
+        margin-left: 5px;
+    }
+
+    .social-ico a:last-child{
+        margin-right: 20px;
+
+    }
+    .descip-about p{
+        padding: 10px 20px 0px;
+        font-size: 1.5em;
+    }
+    .desciption-div2 h1{
+        font-size: 1.5em;
+    }
+
+}
+@media  (min-width: 479px) and (max-width: 767px) {
+    .social-ico a:last-child{
+        margin-right: 20px;
+
+    }
+
+}
+@media (max-width: 979px) {
+    .navbar-fixed-top .navbar-inner{
+        padding: 0 5px 0 5px;
+    }
+    .navbar-fixed-top{
+        margin-bottom: 0;
+    }
+    .theme-default a.nivo-nextNav {
+        right:30%; 
+    }
+    .theme-default a.nivo-prevNav {
+        left:30%; 
+
+    }  
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+    .left-box,.mid-box,.right-box{
+        min-height: 350px;
+        margin-bottom: 5px;
+    }
+    .current{
+        margin-left: 0px;
+        margin-top: 15px;
+
+    }
+
+
+    .brand{
+        height: 55px;
+        margin: 32px 0 0 5px!important;
+
+    }
+
+
+    .navbar .btn-navbar{
+        margin: 55px 20px 0 0px;
+    }
+
+    .footer-nav{
+        padding: 5px 0 1px;
+    }
+
+    .nivo-caption {
+        left:5%;
+        bottom:22px;
+
+    }
+
+    .nivo-caption a {
+        font-size: 2em;
+    } 
+
+
+    .featured{
+        padding-left: 8px;
+    }
+    .seeall{
+        padding-right:8px;
+    }
+    .container-holder{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contact-info-holder .span3, .contact-info-holder .span2{
+        text-align: center;
+
+    }
+    .social-icon-holder {
+        text-align: center;
+
+    }
+    .fa-edit{
+        margin: 0px auto 20px;
+        float: none;
+        font-size: 1em !important;
+    }
+    .contact{
+        padding-top: 10px;
+    }
+    .camp-location{
+        margin-bottom: 10px;
+    }
+
+    .map-holder{
+        width: 95%;
+        margin: 0 auto;
+        height: 330px;
+        border: 5px solid #a59365;
+    }
+
+    .volunt-heading-holder{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .service-detail,.info-details-holder,.address-holder{
+        text-align: center;
+    }
+    .address-holder{
+        border-left:0;
+        padding-left: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .address-holder{
+        margin-bottom: 40px;
+    }
+    .contact-info-holder label{
+        margin-top: 10px;
+    }
+    .contact-link{
+        display: block;
+        margin-top: 20px;
+    }
+    .camp-location{
+        margin-bottom: 30px;
+    }
+    .info-details-holder{
+        border: 0;
+        padding-left: 0;
+    }
+    .main-content{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .service-detail h1{
+        margin: 5px;
+        padding: 0;
+        line-height: 1.2em;
+    }
+
+    .descip-about p{
+        padding: 10px 10px 0px;
+        font-size: 1.2em;
+    }
+    .descip-about span{
+        margin-right: 20px;
+        font-size: 1em;
+
+    }
+
+}
+@media (min-width: 768px) {
+    .contact-link{
+        top:35px;
+    }
+
+    .contact-info-holder label{
+        margin-top: 35px
+    }
+
+    .volunt2{
+        line-height: 0.5em!important;
+    }
+    .username,.password{
+        margin-top: 40px;
+        float: left;
+    }
+    .form-holder button{
+        /*    background: url('../images/submit-btn.png') no-repeat;*/
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .intro{
+        width: 100%;
+        float: left;
+    }
+    .info-details-holder img,.info-details-holder h3{
+        float: left;
+    }
+
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .brand{
+        height: 45px;
+        margin: 35px 0 0 0px!important;
+
+    }
+
+
+    .navbar .btn-navbar{
+        margin: 52px 10px 0 0px;
+    }
+
+    .nivo-caption {
+        left:10px;
+        bottom:12px;
+
+    }
+
+    .nivo-caption a {
+        font-size: 1.5em;
+    } 
+
+    .theme-default .nivoSlider img {
+        height:160px!important;
+    }
+    .fa-edit{
+        width: 270px;
+        font-size: 0.9em !important;
+    }
+    .fa-edit a{
+        font-size: 1em !important;
+    }
+    .social-icon-holder a{
+        font-size: 0.8em !important;
+    }
+    .volunt-heading-holder2 ul li{
+        padding: 0px 15px 0 5px;
+        font-size: 0.9em;
+
+    }
+    .volunt-heading-holder2 ul li{
+        background:url('../images/nav.png') right 6px  no-repeat;
+    }
+
+}
+
+@media (max-width: 340px) {
+
+
+    .theme-default .nivoSlider img {
+        height:120px!important;
+    }
+
+
+}
+@media (min-width: 979px) {
+
+    .navbar .nav{
+        margin-top: 48px;
+    }
+
+
+}
+@media (min-width: 980px) {
+
+    .nav_bg{
+        height: 110px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+
+    .brand{
+        margin:32px 0px 0px 5px !important
+    }
+    .fa-edit{
+        width: 325px;
+    }
+    .fa-edit a{
+        font-size: 1.1em !important;
+    }
+    .address-holder{
+        font-size:0.9em;
+    }
+    .service-detail p{
+        font-size:1em;
+    }
+    .info-details-holder a{
+        font-size: 1.2em;
+    }
+
+}
+
+/*======================= dropdown ========================*/
+@media (min-width:980px){
+
+
+    .dropdown-menu{
+        border-radius: 0px!important;
+        left:40px;
+        padding: 0 20px;
+        border-top: 10px solid #a39161;
+        width: 300px;
+        text-align: center;
+        background: url('../images/menu-bg.png') repeat;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+    }        
+
+    .navbar-inverse .nav li.dropdown.open > .dropdown-toggle{
+        background: transparent;
+        color: #a39161;
+    }
+    .navbar-inverse .nav > li > a{
+        color: #fff;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    .navbar-inverse .nav > li > a:hover{
+        color: #a39161;
+
+    }
+    .navbar .pull-right > li > .dropdown-menu{
+        left: 2px;
+    }
+
+    .dropdown-menu li{
+        border-bottom: 1px solid #9dbbd3;
+    }
+    .dropdown-menu li:last-child{
+        border-bottom: none;
+
+    }
+    .dropdown-menu li > a{
+        line-height: 1.8em;
+        font-size: 1.2em;
+        color: #005496;
+        font-family: Conv_Tahoma, Arial, Helvetica, sans-serif;
+
+
+    }
+    .dropdown-menu li > a:hover{
+        background: none;
+        color: #000;
+    }
+
+    /*.nav-collapse .dropdown-menu:before,
+    .nav-collapse .dropdown-menu:after{
+    
+     content: "";
+     width: 0;
+     height: 0;
+     position: absolute;
+     bottom: 100%;
+     left: 4px;
+     border-width: 0 10px 10px 10px;
+     border-style: solid;
+     border-color: #a39161 transparent;  
+   }*/
+    .nav-collapse .nav>li>.dropdown-menu:before,
+    .nav-collapse .nav>li>.dropdown-menu:after{
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: 100%;
+        left: 25px;
+        top:-20px;
+        border-width: 0 10px 10px 10px;
+        border-style: solid;
+        border-color: #a39161 transparent;  
+    }
+}
+
+@media (max-width:600px){
+    .social-ico a{
+        font-size: 0.7em;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .social-ico b{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .social-ico a:last-child{
+        margin-right: 10px;
+    }
+}
