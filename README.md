@@ -1,5 +1,5 @@
 
 
-£ TrueBlue project
+TrueBlue project
 
   
