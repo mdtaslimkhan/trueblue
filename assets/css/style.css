@@ -728,13 +728,14 @@ h2{
 .volunt2{
     font-family: archivo_narrowbold, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2.8em;
     color: #a39161;
     font-weight: normal;
 }
 .volunt-heading-holder p{
     color: #002b5c;
     line-height: 1.4em !important;
+    font-size: 1.4em;
 
 }
 .volunt-heading-holder{
@@ -751,7 +752,7 @@ h2{
 .form-holder span{
     color: #569bbe;
     line-height: 2.3em;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .form-holder input[type="text"],
@@ -932,6 +933,41 @@ h2{
 
 /*===================== Our programs style ======================*/
 
+/*===================== signin style ======================*/
+.form-holder .signin input[type="text"],
+.form-holder .signin input[type="password"]{
+    height: 44px;
+}
+
+.form-holder .signin button{
+    float: left;
+    margin-top:42px;
+
+}
+.form-holder .signin a{
+    color: #757575;
+    font-size: 1.2em;
+
+}
+.form-holder .signin label{
+    float: right;
+    color: #757575;
+    margin-right: 5px;
+    font-size: 1.2em;
+
+
+}
+.form-holder .signin a.signup-link{
+    float: right;
+    text-decoration: underline;
+
+}
+.signin{
+    margin-bottom: 100px;
+}
+
+/*===================== End signin style ======================*/
+
 
 
 #main{
@@ -940,7 +976,27 @@ h2{
 .footer{
     position: absolute;
     bottom:0px;
+    text-align: center;
 }
+.footer p{
+    line-height: 2em;
+}
+
+.link-holder{
+    width: 470px;
+    margin: 0 auto -10px;
+    background: #002b5c;
+    text-align:center;
+
+
+}
+.link-holder a{
+    color: #fff;
+}
+.link-holder a:nth-child(2),.link-holder a:last-child{
+    padding-left: 65px;
+}
+
 .footer-nav p{
     line-height: 1em;
     margin-top: 5px;
