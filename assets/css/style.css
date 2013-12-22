@@ -16,6 +16,7 @@ p{
     line-height:1.5em;
 }
 
+
 h2{
     font-size: 30px;
     font-weight:400;
@@ -120,7 +121,9 @@ h2{
     font-style: normal;
 }
 
-
+.active{
+    color: #a39161 !important;
+}
 .nav_bg{
     width: 100%;
     background:#002b5c url('../images/nav-bg.png') repeat-x;
@@ -239,6 +242,9 @@ h2{
     text-align: center;
     padding-top: 20px;
 }
+.slide-bottom a{
+    outline: none;
+}
 
 
 
@@ -299,6 +305,7 @@ h2{
     font-weight: bold;
     color: #a39161;
     letter-spacing: 0.5px;
+    outline: none;
 
 }
 .sign-up img{
@@ -354,7 +361,9 @@ h2{
 .seeall {
     color: #002b5c;
 }
-.left-box h3 ,.mid-box h3,.right-box h3{
+.boxs ul.thumbnails li.span4:nth-child(3n+1) h3,
+.boxs ul.thumbnails li.span4:nth-child(3n+2) h3,
+.boxs ul.thumbnails li.span4:nth-child(3n+3) h3{
     font-family: archivo_narrowregular, Arial, Helvetica, sans-serif;
     color: #fefefe;
     text-transform: uppercase;
@@ -362,7 +371,9 @@ h2{
     font-size: 1.7em;
     margin:10px 0 0 15px;
 }
-.left-box p ,.mid-box p,.right-box p{
+.boxs ul.thumbnails li.span4:nth-child(3n+1) p,
+.boxs ul.thumbnails li.span4:nth-child(3n+2) p,
+.boxs ul.thumbnails li.span4:nth-child(3n+3) p{
     color: #fff;
     line-height: 1.3em;
     font-weight: 400;
@@ -375,69 +386,75 @@ h2{
 .box-head{
     min-height: 50px;
 }
-.left-box a ,.mid-box a,.right-box a{
-    color: #fff;
-    background: url('../images/mor-arro.png') no-repeat;
-    float: right;
-    margin-top: 5px;
-    opacity: 0.7;
-
-}
-
-.left-box a:hover ,.mid-box a:hover,.right-box a:hover{
-    opacity: 1;
-}
 
 
-
-.left-box{
+.boxs ul.thumbnails li.span4:nth-child(3n+1) a {
     background:#569bbe; 
     border: 1px solid #569bbe;
+    border-radius:0;
 
 
 
 }
-.left-box:hover{
-    background:#569bbe url('../images/hover-bg.png') no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-origin: padding-box;
-    border: 1px solid #999966;
-
-}
-
-
-.mid-box{
+.boxs ul.thumbnails li.span4:nth-child(3n+2) a {
     background: #fdbe57;
     border: 1px solid #fdbe57;
-
-
-
-}
-.mid-box:hover{
-    background:#fdbe57 url('../images/hover-bg.png') no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-origin: padding-box;
-    border: 1px solid #999966;
+    border-radius:0;
 
 }
-.right-box{
+.boxs ul.thumbnails li.span4:nth-child(3n+3) a {
     background: #e31937;
     border: 1px solid #e31937;
-
-
+    border-radius:0;
 
 
 }
-.right-box:hover{
+
+.boxs ul.thumbnails li.span4:nth-child(3n+1) a:hover{
+    background:#569bbe url('../images/hover-bg.png') no-repeat;
+    background-size: cover;
+    opacity: 1;
+    text-decoration: none;
+
+
+}
+.boxs ul.thumbnails li.span4:nth-child(3n+2) a:hover{
+    background:#fdbe57 url('../images/hover-bg.png') no-repeat;
+    background-size: cover;
+    opacity: 1;
+    text-decoration: none;
+
+}
+
+.boxs ul.thumbnails li.span4:nth-child(3n+3) a:hover{
     background:#e31937 url('../images/hover-bg.png') no-repeat;
     background-size: cover;
-    background-clip: border-box;
-    background-origin: padding-box;
-    border: 1px solid #999966;
+    opacity: 1;
+    text-decoration: none;
 
 }
+
+
+.boxs ul.thumbnails li.span4:nth-child(3n+4){
+    margin-left: 0px;
+
+
+}
+.box-icon-arrow{
+    background: url('../images/mor-arro.png') right bottom no-repeat;
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+}
+.icon-chevron-right{
+    position: absolute;
+}
+
+
 .footer {
     clear: both;
     margin-top: 50px;
@@ -476,12 +493,17 @@ h2{
     text-align: center;
     margin-top: 3px;
 }
-
+.seeall-border{
+    margin-top: -20px;
+}
 
 .boxs .span4{
     position: relative;    
 }
 
+.boxs .thumbnails{
+    margin-bottom: 0;
+}
 
 
 .boxs .span4 .div-holder-bottom{
@@ -494,18 +516,15 @@ h2{
 
 .boxs .span4 {
     overflow: hidden;
-    padding-bottom: 10px;
+    padding-bottom:0px;
 
 
 
 }
-.boxs .div-holder-bottom a{
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
 
 
-}
+
+
 
 /*===================== contact blue style ======================*/
 
@@ -567,8 +586,15 @@ h2{
     color: #3399ff;
     font-family: archivo_narrowregular, Arial, Helvetica, sans-serif;
     font-size: 1.6em;
+    outline: none;
+
 
 }
+.contact-info-holder .email span a:hover{
+    color: #367ec5;
+    text-decoration: none;
+}
+
 .contact-info-holder .camp-location span{
     color: #333;
     font-family: archivo_narrowregular, Arial, Helvetica, sans-serif;
@@ -633,11 +659,22 @@ h2{
     margin-bottom: 15px;
 
 }
-.address-holder address b{
+.address-holder address b,.address-holder address a{
     color: #999966;
     font-size: 1.2em;
+    outline: none;
+}
+
+.address-holder address a:hover{
+    color: #68681d;
+    text-decoration: none;
 
 }
+
+
+
+
+
 .fa-edit{
     width: 360px;
     text-align: left;
@@ -648,6 +685,7 @@ h2{
 .fa-edit a{
     color: #999966;
     font-size: 1.3em;
+    outline: none;
 }
 .fa-edit a:hover{
     text-decoration: none;
@@ -929,15 +967,172 @@ h2{
 /*===================== programs style ======================*/
 
 
-
+.program-thumb-holder .thumbnail {
+    height: 215px;
+    overflow: hidden;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 1px solid #dddddd;
+    padding: 0;
+}
+.program-thumb-holder .thumbnail:hover {
+    background: #ac9c70;
+    cursor: pointer;
+    text-decoration: none;
+}
+.program-thumb-holder .thumbnail img {
+    width: 100%;
+}
+.program-thumb-holder .thumbnail h2 {
+    font-family: archivo_narrowbold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.program-thumb-holder ul.thumbnails li.span6:nth-child(2n + 3) {
+    margin-left : 0px;
+}
+.program-thumb-holder{
+    padding-top: 30px;
+}
 
 /*===================== Our programs style ======================*/
+
+/*===================== opportunities style ======================*/
+
+
+.service-search-holder h1{
+    font-size: 5.2em;
+    font-family: amatic_scbold, Arial, Helvetica, sans-serif;
+    padding: 0;
+    line-height: 60px;
+    color: #002b5c;
+    position: relative;
+    font-weight: normal;
+    margin-top: 30px;
+    float: left;
+}
+
+.service-search-holder select,.service-search-holder input[type="text"]{
+    margin-top: 45px;
+    float: left;
+    margin-left: 40px;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    outline: none;
+    height: 35px;
+    border:1px solid #8d8d8d;
+
+
+}
+
+.service-search-holder input[type="text"]:focus{
+    box-shadow: none;
+    border:1px solid #8d8d8d;
+}
+.service-search-holder input[type="text"]{
+
+}
+
+.search-result span{
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    float: left;
+    color: #cccccc;
+    font-size: 1.3em;
+
+}
+.service-thumb-holder .thumbnail {
+    height: 85px;
+    overflow: hidden;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 1px solid #a0a0a0;
+}
+.service-thumb-holder .thumbnail:hover {
+    background: #ac9c70;
+    cursor: pointer;
+}
+.service-content-holder{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service-thumb-holder .thumbnail img{
+    float: left;
+    height: 78px;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+.service-thumb-holder .thumbnail h2{
+    padding: 0;
+    margin:5px 0 0 0;
+    line-height: 1em;
+    color: #003366;
+    font-family: archivo_narrowbold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    white-space: nowrap;
+    text-overflow:  ellipsis;
+    overflow: hidden;
+
+
+}
+.service-thumb-holder .thumbnail b{
+    margin-top: 0px;
+    color: #333333;
+    font-size: 1.3em;
+    white-space: nowrap;
+    text-overflow:  ellipsis;
+    overflow: hidden;
+    display: block;
+    margin-bottom:5px;
+
+}
+.service-thumb-holder .thumbnail span{
+    margin-top: 5px;
+    color: #cccccc;
+    font-size: 1.3em;
+
+}
+
+.service-thumb-holder .thumbnail h2:hover,
+.service-thumb-holder .thumbnail b:hover,
+.service-thumb-holder .thumbnail span:hover,
+.service-thumb-holder .thumbnail h2:active,
+.service-thumb-holder .thumbnail b:active,
+.service-thumb-holder .thumbnail span:active{
+    outline: none;
+    text-decoration: none;
+}
+.service-thumb-holder a.thumbnail{
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+.service-thumb-holder ul.thumbnails li.span6:nth-child(2n + 3) {
+    margin-left : 0px;
+}
+
+
+
+
+
+
+
+/*===================== End opportunities style ======================*/
+
 
 /*===================== signin style ======================*/
 .form-holder .signin input[type="text"],
 .form-holder .signin input[type="password"]{
     height: 44px;
 }
+
 
 .form-holder .signin button{
     float: left;
@@ -963,8 +1158,19 @@ h2{
 
 }
 .signin{
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
+
+.signup-link-holder{
+    float: right;
+    margin-top: 6px;
+}
+
+.signup-link-holder2{
+    float: left;
+    margin-top: 6px;
+}
+
 
 /*===================== End signin style ======================*/
 
@@ -1004,3 +1210,6 @@ h2{
 #googleMap img {
     max-width: none;
 }
+
+
+

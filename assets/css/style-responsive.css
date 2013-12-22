@@ -3,9 +3,11 @@
 
 
 @media (min-width: 1200px) {
-    .left-box,.mid-box,.right-box{
+    .boxs ul.thumbnails li.span4 a{
+
         height: 205px;
     }
+
     .brand{
         margin:32px 0px 0px 15px !important
     }
@@ -32,11 +34,15 @@
     .desciption-div p{
         margin-right: 20px;
     }
+    .program-thumb-holder{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 
 }
 @media (min-width: 980px) and (max-width: 1199px) { 
 
-    .left-box,.mid-box,.right-box{
+    .boxs ul.thumbnails li.span4 a{
         height: 220px;
     }
     .brand{
@@ -93,6 +99,16 @@
         font-size: 1.5em;
 
     }
+    .service-thumb-holder .thumbnail h2{
+        font-size: 1.6em;
+        margin-top: 7px;
+    }
+    .service-thumb-holder .thumbnail label{
+        font-size: 1.1em;
+    }
+    .service-thumb-holder .thumbnail span{
+        font-size: 1.1em;
+    }
 
 
 }
@@ -100,7 +116,7 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
 
-    .left-box,.mid-box,.right-box{
+    .boxs ul.thumbnails li.span4 a{
         height: 320px;
     }
     .brand{
@@ -158,6 +174,21 @@
     .desciption-div2 h1{
         font-size: 1.5em;
     }
+    .signup-link-holder{
+        float: left;
+    }
+
+    .service-thumb-holder .thumbnail h2{
+        font-size: 1.3em;
+        margin-top: 10px;
+    }
+    .service-thumb-holder .thumbnail label{
+        font-size: 1em;
+    }
+    .service-thumb-holder .thumbnail span{
+        font-size: 1em;
+    }
+
 
 }
 @media  (min-width: 479px) and (max-width: 767px) {
@@ -196,7 +227,7 @@
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
-    .left-box,.mid-box,.right-box{
+    .boxs ul.thumbnails li.span4 a{
         min-height: 350px;
         margin-bottom: 5px;
     }
@@ -412,10 +443,21 @@
         padding-left: 10px;
     }
     .form-holder .signin a, .form-holder .signin label{
-        font-size: .8em;
+        font-size: 1em;
 
     }
-   
+    .service-thumb-holder .thumbnail h2{
+        font-size: 1.3em;
+        margin-top: 10px;
+
+    }
+    .service-thumb-holder .thumbnail label{
+        font-size: 1em;
+    }
+    .service-thumb-holder .thumbnail span{
+        font-size: 1em;
+    }
+
 }
 
 @media (max-width: 340px) {
@@ -559,5 +601,22 @@
     }
     .social-ico a:last-child{
         margin-right: 10px;
+    }
+
+
+}
+@media (min-width: 480px) and (max-width: 600px) { 
+
+
+    .service-thumb-holder .thumbnail h2{
+        font-size: 1.6em;
+        margin-top: 6px;
+
+    }
+    .service-thumb-holder .thumbnail label{
+        font-size: 1.2em;
+    }
+    .service-thumb-holder .thumbnail span{
+        font-size: 1.2em;
     }
 }
