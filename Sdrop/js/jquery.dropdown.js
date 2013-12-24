@@ -21,7 +21,7 @@
 	$.DropDown.defaults = {
 		speed : 300,
 		easing : 'ease',
-		gutter :-5,
+		gutter : 0,
 		// initial stack effect
 		stack : true,
 		// delay between each option animation
@@ -159,7 +159,7 @@
 
 				$( this ).css( {
 					opacity : 1,
-					top : self.options.rotated ? self.size.height + self.options.gutter : ( i + 1  ) * ( self.size.height + self.options.gutter ),
+					top : self.options.rotated ? self.size.height + self.options.gutter : ( i + 1 ) * ( self.size.height + self.options.gutter ),
 					left : self.options.random ? Math.floor( Math.random() * 11 - 5 ) : 0,
 					width : self.size.width,
 					marginLeft : 0,

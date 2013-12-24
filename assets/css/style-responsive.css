@@ -19,7 +19,7 @@
         padding: 10px 25px;
     }
     .navbar .nav li:last-child a {
-        padding: 10px 0px 10px 25px;
+        padding: 10px 0px 5px 25px;
     }
     .navbar-inverse .nav > li > a {
         font-size: 1.4em;
@@ -37,6 +37,18 @@
     .program-thumb-holder{
         padding-left: 35px;
         padding-right: 35px;
+    }
+    .program-thumb-holder .thumbnail {
+        height: 215px;
+    }
+    .text-bottom p{
+        margin: 20px 90px 10px 90px;
+    }
+    .program-details p{
+        margin: 0 20px 0 20px;
+    }
+    .aboutus img{
+        height: 270px;
     }
 
 }
@@ -108,6 +120,15 @@
     }
     .service-thumb-holder .thumbnail span{
         font-size: 1.1em;
+    }
+    .program-thumb-holder .thumbnail img {
+        height: 150px;
+    }
+    .program-thumb-holder .thumbnail {
+        height: 215px;
+    }
+    .aboutus img{
+        height: 220px;
     }
 
 
@@ -189,6 +210,29 @@
         font-size: 1em;
     }
 
+    .program-thumb-holder .thumbnail img {
+        height: 140px;
+    }
+    .program-thumb-holder .thumbnail h2 {
+        font-size: 1.4em;
+    }
+    .program-thumb-holder .thumbnail {
+        height: 190px;
+    }
+    .text-bottom p{
+        margin: 20px 20px 10px 20px;
+    }
+    .aboutus ul li{
+        width: 28% !important;
+
+    }
+
+    .aboutus ul li:nth-child(3n+2){
+        width: 35% !important;
+    }
+    .aboutus img{
+        height: 180px;
+    }
 
 }
 @media  (min-width: 479px) and (max-width: 767px) {
@@ -309,12 +353,14 @@
     .service-detail,.info-details-holder,.address-holder{
         text-align: center;
     }
+
     .address-holder{
         border-left:0;
         padding-left: 0;
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .address-holder{
         margin-bottom: 40px;
     }
@@ -351,6 +397,23 @@
         font-size: 1em;
 
     }
+    .address-info-holder{
+        text-align: center;
+    }
+    .text-bottom p{
+        margin: 20px 10px 10px 10px;
+    }
+    .program-details-box{
+        margin-bottom: 30px;
+    }
+    .program-heading{
+        margin-bottom: 10px;
+    }
+
+    .aboutus li{
+        width: 100% !important;
+    }
+
 
 }
 @media (min-width: 768px) {
@@ -363,7 +426,7 @@
     }
 
     .volunt2{
-        line-height: 0.5em!important;
+        line-height:1em!important;
     }
     .username,.password{
         margin-top: 40px;
@@ -388,6 +451,12 @@
             margin-left: -50px;
         }*/
 
+    .address-info-holder{
+        width: 220px;
+        margin: 50px auto 80px;
+        border-left: 3px solid #006699;
+        padding-left: 10px;
+    }
 
 
 }
@@ -466,7 +535,10 @@
     .theme-default .nivoSlider img {
         height:120px!important;
     }
-
+    .program-thumb-holder .thumbnail img {
+        width: 100%;
+        height: 100px;
+    }
 
 }
 @media (min-width: 979px) {
@@ -514,11 +586,10 @@
     .dropdown-menu{
         border-radius: 0px!important;
         left:40px;
-        padding: 0 20px;
-        border-top: 10px solid #a39161;
+        padding: 0;
+        border-top:0px solid #a39161;
         width: 300px;
-        text-align: center;
-        background: url('../images/menu-bg.png') repeat;
+        background:#a39161;
         border-right: none;
         border-bottom: none;
         border-left: none;
@@ -538,27 +609,35 @@
 
     }
     .navbar .pull-right > li > .dropdown-menu{
-        left: 2px;
+        right:-35%;
+        top:45px;
     }
 
     .dropdown-menu li{
-        border-bottom: 1px solid #9dbbd3;
+        border-bottom: 1px solid #908560;
+    }
+    .dropdown-menu li:hover{
+        background: #72725f !important;
     }
     .dropdown-menu li:last-child{
         border-bottom: none;
 
     }
+
     .dropdown-menu li > a{
         line-height: 1.8em;
-        font-size: 1.2em;
-        color: #005496;
+        font-size: 1.3em;
+        color:#fff;
         font-family: Conv_Tahoma, Arial, Helvetica, sans-serif;
+        padding-left: 60px;
 
-
+    }
+    .dropdown-menu li:last-child a {
+        padding: 0px 0px 5px 60px !important;
     }
     .dropdown-menu li > a:hover{
         background: none;
-        color: #000;
+        color: #f2eeee;
     }
 
     /*.nav-collapse .dropdown-menu:before,
@@ -581,8 +660,8 @@
         height: 0;
         position: absolute;
         bottom: 100%;
-        left: 25px;
-        top:-20px;
+        left: 47%;
+        top:-10px;
         border-width: 0 10px 10px 10px;
         border-style: solid;
         border-color: #a39161 transparent;  
