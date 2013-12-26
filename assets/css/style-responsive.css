@@ -51,6 +51,24 @@
         height: 270px;
     }
 
+
+    .service-search-holder h1 {
+        font-size: 5.4em;
+        margin-left: 20px;
+    }
+    .cd-dropdown{
+        margin-top: 35px;
+        margin-left: 60px;
+        float: right;
+        margin-right: -30px;
+    }
+    .service-search-holder input[type="text"] {
+        margin-left: 30px;
+        margin-top: 35px;
+        height: 40px;
+        width: 260px;
+    }
+
 }
 @media (min-width: 980px) and (max-width: 1199px) { 
 
@@ -131,6 +149,21 @@
         height: 220px;
     }
 
+    .service-search-holder h1 {
+        font-size: 4em;
+        margin-left: 20px;
+    }
+    .cd-dropdown{
+        margin-top: 35px;
+        margin-left: 20px;
+        float: right;
+    }
+    .service-search-holder input[type="text"] {
+        margin-left: 30px;
+        margin-top: 35px;
+        height: 40px;
+        width: 180px;
+    }
 
 }
 
@@ -233,6 +266,21 @@
     .aboutus img{
         height: 180px;
     }
+    .service-search-holder h1 {
+        font-size: 3em;
+        margin-left: 20px;
+    }
+    .cd-dropdown{
+        margin-top: 35px;
+        margin-left: 30px;
+
+    }
+    .service-search-holder input[type="text"] {
+        margin-left: 10px;
+        margin-top: 35px;
+        height: 40px;
+        width: 180px;
+    }
 
 }
 @media  (min-width: 479px) and (max-width: 767px) {
@@ -246,7 +294,9 @@
     .link-holder a:nth-child(2),.link-holder a:last-child{
         padding-left: 45px;
     }
-
+    .service-search-holder h1 {
+        font-size: 4em;
+    }
 
 }
 @media (max-width: 979px) {
@@ -415,7 +465,42 @@
     }
 
 
+    .cd-dropdown{
+        margin-top: 0px;
+
+    }
+    .service-search-holder input[type="text"] {
+        margin-top: 0px;
+        height: 40px;
+        width:285px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .input-holder{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .search-result .ico-fa-edit {
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+    .search-result {
+        text-align: center
+    }
+
+
 }
+
+/*@media  (min-width: 560px) and (max-width: 767px) {
+    .service-search-holder h1 {
+        font-size: 5em;
+    }
+    .cd-dropdown{
+        margin-left: 10%;
+
+    }
+}*/
+
 @media (min-width: 768px) {
     .contact-link{
         top:35px;
@@ -526,7 +611,9 @@
     .service-thumb-holder .thumbnail span{
         font-size: 1em;
     }
-
+    .service-search-holder h1 {
+        font-size: 3.5em;
+    }
 }
 
 @media (max-width: 340px) {

@@ -8,9 +8,10 @@
         <meta name="author" content="Taslim Khan">
 
         <!-- Le styles -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style4.css" />
+
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style4.css" />
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/style-responsive.css" rel="stylesheet">
 
@@ -88,29 +89,33 @@
             <div class="bottom-strip"></div>
             <div class="container opportunities-search-holder">
                 <div class="row">
-                    <div class="span5 service-search-holder">
+                    <div class="span4 service-search-holder">
                         <h1>Service Opportunities</h1>
                     </div>
-                    <div class="span7 service-search-holder">
-                        <select id="cd-dropdown" class="cd-select">
-                            <option value="-1" selected>Pick an operating system</option>
-                            <option value="1" class="edu">Adult Education</option>
-                            <option value="2" class="animal">Animals</option>
-                            <option value="3" class="arts">Arts & Culture</option>
-                            <option value="4" class="children">Children and Youth</option>
-                            <option value="1" class="economi">Economic Development</option>
-                            <option value="2" class="environment">Environment/Gardening </option>
-                            <option value="3" class="helth">Health and Wellness</option>
-                            <option value="4" class="house">Housing/Homelessness</option>
-                            <option value="1" class="hunger">Hunger Issues</option>
-                            <option value="2" class="metal">Mental Health/Disabilities</option>
-                            <option value="3" class="mentoring">Mentoring/Tutoring</option>
-                            <option value="4" class="adult">Older Adults</option>
-                            <option value="4" class="advocy">Social Advocacy</option>
-                        </select>
+                    <div class="input-holder">
+                        <div class="span4 service-search-holder">
+                            <select id="cd-dropdown" class="cd-select">
+                                <option value="-1" selected>Filter by interest</option>
+                                <option value="1" class="edu">Adult Education</option>
+                                <option value="2" class="animal">Animals</option>
+                                <option value="3" class="arts">Arts & Culture</option>
+                                <option value="4" class="children">Children and Youth</option>
+                                <option value="1" class="economi">Economic Development</option>
+                                <option value="2" class="environment">Environment/Gardening </option>
+                                <option value="3" class="helth">Health and Wellness</option>
+                                <option value="4" class="house">Housing/Homelessness</option>
+                                <option value="1" class="hunger">Hunger Issues</option>
+                                <option value="2" class="metal">Mental Health/Disabilities</option>
+                                <option value="3" class="mentoring">Mentoring/Tutoring</option>
+                                <option value="4" class="adult">Older Adults</option>
+                                <option value="4" class="advocy">Social Advocacy</option>
+                            </select>
 
-                        <input type="text" placeholder="Search"/>
-                    </div>                 
+                        </div> 
+                        <div class="span4 service-search-holder">
+                            <input type="text" placeholder="Search"/>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -119,8 +124,11 @@
             <div class="main-content"><!--main content start -->
                 <div class="container">
                     <div class="row">
-                        <div class="span12 search-result">
+                        <div class="span4 search-result">
                             <span>Search Results: All</span>
+                        </div>
+                        <div class="span8 search-result">
+
                             <div class="fa-edit">
                                 <a href="signup.html"><i class="ico-fa-edit"></i>
                                     Sign up here to be a community partner</a>

@@ -68,7 +68,7 @@
 
 
 .cd-active.cd-dropdown ul li span {
-    margin-top:-2px;
+    margin-top:10px;
     height:40px;
     text-align: left;
 }
@@ -79,7 +79,7 @@
     height: 40px;
 }
 .cd-dropdown > span{    
-    height: 45px!important;
+    height: 50px!important;
 }
 .cd-dropdown,
 .cd-select {
@@ -88,6 +88,8 @@
     margin: 20px auto;
     display: block;
     float: left;
+    font-weight: lighter !important;
+    
 }
 
 .cd-dropdown ul li span {
@@ -97,9 +99,9 @@
 
 
 .cd-dropdown > span {
-    width: 100%;
+    /*    width: 100%;*/
     height: 60px;
-    line-height: 60px;
+    line-height:2.9em;
     color: #999;
     font-weight: 700;
     font-size: 16px;
@@ -112,7 +114,6 @@
 }
 
 .cd-dropdown > span:after {
-    content: '\25BC';
     position: absolute;
     right: 0px;
     top: 15%;
@@ -121,12 +122,15 @@
     font-size: 12px;
     padding: 10px;
     height: 70%;
-    line-height: 24px;
-    border-left: 1px solid #ddd;
+    line-height: 0px;
+    background: url('../images/down-arrow.png') 50% 30% no-repeat;
+    content: "adf";
+    color: #003366
 }
 
 .cd-dropdown.cd-active > span:after {
-    content: '\25B2';
+    background: url('../images/top-arrow.png') 50% 30% no-repeat;
+
 }
 
 .cd-dropdown ul {
@@ -142,15 +146,16 @@
 }
 
 .cd-dropdown ul li span {
-    width: 100%;
+    /*    width: 100%;*/
     background: #fff;
     line-height: 40px;
-    padding: 0 30px 0 55px;
+    padding: 0 0px 0 50px;
     display: block;
-    color: #bcbcbc;
+    color: #fff;
     cursor: pointer;
-    font-weight: 700;
+    font-weight:normal;
     background-size: 50px 50px;
+    font-size: 1.4em;
 }
 
 .cd-dropdown > span,
@@ -180,7 +185,7 @@
 
 /* General Demo Style */
 
-*,
+/**,
 *:after,
 *:before {
     -webkit-box-sizing: border-box;
@@ -188,7 +193,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+}*/
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
@@ -206,10 +211,6 @@
 }
 
 
-.container {
-    width: 100%;
-    position: relative;
-}
 
 .main,
 .container > header {
@@ -409,5 +410,52 @@
 }
 
 .cd-active.cd-dropdown ul li span:hover {
-   background: #72725f !important;
+    background: #72725f !important;
 }
+.cd-dropdown > span {
+    text-transform: uppercase;
+    color: #fff;
+}
+.cd-dropdown > span > span{
+    background: transparent !important;
+}
+
+@media (min-width: 980px) and (max-width: 1199px) { 
+
+    .cd-dropdown > span {
+        font-size: 12px;
+        line-height: 4.2em;
+
+    }
+    .cd-dropdown ul li span {
+        font-size: 13px;
+
+    }
+    .cd-dropdown,
+    .cd-select {
+        width: 220px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+
+
+
+    .cd-dropdown > span {
+        font-size: 12px;
+        line-height: 4.2em;
+
+
+    }
+    .cd-dropdown ul li span {
+        font-size: 12px;
+
+    }
+    .cd-dropdown,
+    .cd-select {
+        width: 220px;
+    }
+}
+
