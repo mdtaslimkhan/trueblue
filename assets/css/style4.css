@@ -5,8 +5,16 @@
     background-size: 30px 30px !important;
 
 }
+.edu:hover{
+    background:#72725f url('../images/icons/icon_03.png')15px 6px no-repeat !important;
+    background-size: 30px 30px !important;
+}
 .animal{
     background:#a39161 url('../images/icons/icon_06.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
+.animal:hover{
+    background:#72725f url('../images/icons/icon_06.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
 
@@ -14,9 +22,17 @@
     background:#a39161 url('../images/icons/icon_08.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
+.arts:hover{
+    background:#72725f url('../images/icons/icon_08.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
 
 .children{
     background:#a39161 url('../images/icons/icon_10.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
+.children:hover{
+    background:#72725f url('../images/icons/icon_10.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
 
@@ -26,23 +42,44 @@
     background-size: 30px 30px !important;
 
 }
+.economi:hover{
+    background:#72725f url('../images/icons/icon_12.png')15px 6px no-repeat !important;
+    background-size: 30px 30px !important;
+
+}
 .environment{
     background:#a39161 url('../images/icons/icon_14.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
 
+.environment:hover{
+    background:#72725f url('../images/icons/icon_14.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
 .helth{
     background:#a39161 url('../images/icons/icon_16.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
-
+.helth:hover{
+    background:#72725f url('../images/icons/icon_16.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
 .house{
     background:#a39161 url('../images/icons/icon_18.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
 
+.house:hover{
+    background:#72725f url('../images/icons/icon_18.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
 .hunger{
     background:#a39161 url('../images/icons/icon_20.png')15px 6px no-repeat !important;
+    background-size: 30px 30px !important;
+
+}
+.hunger:hover{
+    background:#72725f url('../images/icons/icon_20.png')15px 6px no-repeat !important;
     background-size: 30px 30px !important;
 
 }
@@ -51,18 +88,34 @@
     background-size: 30px 30px !important;
 }
 
+.metal:hover{
+    background:#72725f url('../images/icons/icon_22.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
+
 .mentoring{
     background:#a39161 url('../images/icons/icon_24.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
 
+.mentoring:hover{
+    background:#72725f url('../images/icons/icon_24.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
 .adult{
     background:#a39161 url('../images/icons/icon_26.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
-
+.adult:hover{
+    background:#72725f url('../images/icons/icon_26.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
 .advocy{
     background:#a39161 url('../images/icons/icon_28.png')15px 6px no-repeat !important ;
+    background-size: 30px 30px !important;
+}
+.advocy:hover{
+    background:#72725f url('../images/icons/icon_28.png')15px 6px no-repeat !important ;
     background-size: 30px 30px !important;
 }
 
@@ -181,21 +234,6 @@
 
 
 
-
-
-/* General Demo Style */
-
-/**,
-*:after,
-*:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}*/
-
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -212,50 +250,10 @@
 
 
 
-.main,
-.container > header {
-    width: 90%;
-    max-width: 960px;
-    margin: 0 auto;
-    position: relative;
-    padding: 0 10px;
-}
-
-.container > header {
-    padding: 40px 10px 50px;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 1px rgba(255,255,255,0.8);
-    margin-bottom: 30px;
-}
-
-.container > header h1 {
-    font-size: 34px;
-    line-height: 38px;
-    margin: 0;
-    font-weight: 700;
-    color: #333;
-    float: left;
-}
-
-.container > header h1 span {
-    display: block;
-    font-size: 20px;
-    font-weight: 300;
-}
-
 .fleft {
     float: left;
     width: 49%;
     min-width: 300px;
-}
-
-.main p {
-    color: #AAA;
-    padding: 20px 30px 0px 0px;
-    font-size: 20px;
-    line-height: 34px;
-    font-weight: 300;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 }
 
 /* Header Style */
@@ -409,9 +407,9 @@
     color: #fff;
 }
 
-.cd-active.cd-dropdown ul li span:hover {
+/*.cd-active.cd-dropdown ul li span:hover {
     background: #72725f !important;
-}
+}*/
 .cd-dropdown > span {
     text-transform: uppercase;
     color: #fff;
@@ -470,7 +468,11 @@
     line-height: 1em!important;
     position: relative;
     left: -12px;
+    top: 1px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+.cd-dropdown > span > span:hover{
+    background: transparent !important;
 }
