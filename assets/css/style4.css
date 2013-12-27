@@ -89,7 +89,7 @@
     display: block;
     float: left;
     font-weight: lighter !important;
-    
+
 }
 
 .cd-dropdown ul li span {
@@ -386,7 +386,7 @@
 }
 
 .cd-active.cd-dropdown > span {
-    color: #f8b161;
+    color: #a39161;
 
 }
 
@@ -416,9 +416,7 @@
     text-transform: uppercase;
     color: #fff;
 }
-.cd-dropdown > span > span{
-    background: transparent !important;
-}
+
 
 @media (min-width: 980px) and (max-width: 1199px) { 
 
@@ -459,3 +457,20 @@
     }
 }
 
+.cd-dropdown ul li{
+    width: 100% !important;
+    position: absolute;
+    left: 0 !important;
+
+}
+
+.cd-dropdown > span > span{
+    background: transparent !important;
+    font-size: 0.9em;
+    line-height: 1em!important;
+    position: relative;
+    left: -12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

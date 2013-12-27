@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-position: 0px 0px;
+    font-family: Conv_Tahom, Arial, Helvetica, sans-serif;
     padding-right: 0px;
     padding-left: 0px;
 }
@@ -570,7 +571,7 @@ h2{
 .contact-info-holder .phone span,
 .contact-info-holder .camp-location b{
     font-family: archivo_narrowbold, Arial, Helvetica, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .contact-info-holder .hours span{
@@ -583,7 +584,7 @@ h2{
 .contact-info-holder .email span a{
     color: #3399ff;
     font-family: archivo_narrowregular, Arial, Helvetica, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.4em;
     outline: none;
 
 
@@ -1164,7 +1165,7 @@ h2{
 .search-result .fa-edit a{
     position: relative;
     top: 10px;
-    float: right
+    float: right;
 }
 .search-result .ico-fa-edit{
     margin-top: -5px;
